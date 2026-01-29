@@ -1,0 +1,410 @@
+{
+    "Author_GPT5_Mini": {
+        "SymbolicRule": {
+            "1": {
+                "rule_generation_attempts": 5,
+                "rule_generation_success": 4,
+                "code_generation_attempts": 6,
+                "code_generation_success": 6,
+                "code_execution_attempts": 6,
+                "code_execution_success": 6,
+                "puzzle_self_validation_attempts": 6,
+                "puzzle_self_validation_success": 6,
+                "final_judging_attempts": 6,
+                "final_judging_success": 3
+            },
+            "2": {
+                "rule_generation_attempts": 4,
+                "rule_generation_success": 4,
+                "code_generation_attempts": 7,
+                "code_generation_success": 7,
+                "code_execution_attempts": 7,
+                "code_execution_success": 6,
+                "puzzle_self_validation_attempts": 6,
+                "puzzle_self_validation_success": 6,
+                "final_judging_attempts": 6,
+                "final_judging_success": 3
+            },
+            "3": {
+                "rule_generation_attempts": 3,
+                "rule_generation_success": 3,
+                "code_generation_attempts": 3,
+                "code_generation_success": 3,
+                "code_execution_attempts": 3,
+                "code_execution_success": 3,
+                "puzzle_self_validation_attempts": 3,
+                "puzzle_self_validation_success": 3,
+                "final_judging_attempts": 3,
+                "final_judging_success": 3
+            },
+            "3D-Hard": {
+                "rule_generation_attempts": 50,
+                "rule_generation_success": 18,
+                "code_generation_attempts": 31,
+                "code_generation_success": 31,
+                "code_execution_attempts": 31,
+                "code_execution_success": 19,
+                "puzzle_self_validation_attempts": 19,
+                "puzzle_self_validation_success": 17,
+                "final_judging_attempts": 17,
+                "final_judging_success": 13
+            }
+        },
+        "SemanticRule": {
+            "1": {
+                "rule_generation_attempts": 3,
+                "rule_generation_success": 3,
+                "code_generation_attempts": 3,
+                "code_generation_success": 3,
+                "code_execution_attempts": 3,
+                "code_execution_success": 3,
+                "puzzle_self_validation_attempts": 3,
+                "puzzle_self_validation_success": 3,
+                "final_judging_attempts": 3,
+                "final_judging_success": 3
+            },
+            "2": {
+                "rule_generation_attempts": 3,
+                "rule_generation_success": 3,
+                "code_generation_attempts": 5,
+                "code_generation_success": 5,
+                "code_execution_attempts": 5,
+                "code_execution_success": 3,
+                "puzzle_self_validation_attempts": 3,
+                "puzzle_self_validation_success": 3,
+                "final_judging_attempts": 3,
+                "final_judging_success": 3
+            },
+            "3": {
+                "rule_generation_attempts": 3,
+                "rule_generation_success": 3,
+                "code_generation_attempts": 4,
+                "code_generation_success": 4,
+                "code_execution_attempts": 4,
+                "code_execution_success": 3,
+                "puzzle_self_validation_attempts": 3,
+                "puzzle_self_validation_success": 3,
+                "final_judging_attempts": 3,
+                "final_judging_success": 3
+            },
+            "3D-Hard": {
+                "rule_generation_attempts": 101,
+                "rule_generation_success": 29,
+                "code_generation_attempts": 67,
+                "code_generation_success": 67,
+                "code_execution_attempts": 67,
+                "code_execution_success": 31,
+                "puzzle_self_validation_attempts": 31,
+                "puzzle_self_validation_success": 29,
+                "final_judging_attempts": 29,
+                "final_judging_success": 13
+            }
+        }
+    },
+    "Author_O4_mini": {
+        "SymbolicRule": {
+            "1": {
+                "rule_generation_attempts": 4,
+                "rule_generation_success": 3,
+                "code_generation_attempts": 3,
+                "code_generation_success": 3,
+                "code_execution_attempts": 3,
+                "code_execution_success": 3,
+                "puzzle_self_validation_attempts": 3,
+                "puzzle_self_validation_success": 3,
+                "final_judging_attempts": 3,
+                "final_judging_success": 3
+            },
+            "2": {
+                "rule_generation_attempts": 3,
+                "rule_generation_success": 3,
+                "code_generation_attempts": 4,
+                "code_generation_success": 4,
+                "code_execution_attempts": 4,
+                "code_execution_success": 3,
+                "puzzle_self_validation_attempts": 3,
+                "puzzle_self_validation_success": 3,
+                "final_judging_attempts": 3,
+                "final_judging_success": 3
+            },
+            "3": {
+                "rule_generation_attempts": 7,
+                "rule_generation_success": 3,
+                "code_generation_attempts": 3,
+                "code_generation_success": 3,
+                "code_execution_attempts": 3,
+                "code_execution_success": 3,
+                "puzzle_self_validation_attempts": 3,
+                "puzzle_self_validation_success": 3,
+                "final_judging_attempts": 3,
+                "final_judging_success": 3
+            },
+            "3D-Hard": {
+                "rule_generation_attempts": 151,
+                "rule_generation_success": 17,
+                "code_generation_attempts": 36,
+                "code_generation_success": 36,
+                "code_execution_attempts": 36,
+                "code_execution_success": 24,
+                "puzzle_self_validation_attempts": 24,
+                "puzzle_self_validation_success": 22,
+                "final_judging_attempts": 22,
+                "final_judging_success": 13
+            }
+        },
+        "SemanticRule": {
+            "1": {
+                "rule_generation_attempts": 6,
+                "rule_generation_success": 3,
+                "code_generation_attempts": 5,
+                "code_generation_success": 5,
+                "code_execution_attempts": 5,
+                "code_execution_success": 3,
+                "puzzle_self_validation_attempts": 3,
+                "puzzle_self_validation_success": 3,
+                "final_judging_attempts": 3,
+                "final_judging_success": 3
+            },
+            "2": {
+                "rule_generation_attempts": 3,
+                "rule_generation_success": 3,
+                "code_generation_attempts": 4,
+                "code_generation_success": 4,
+                "code_execution_attempts": 4,
+                "code_execution_success": 3,
+                "puzzle_self_validation_attempts": 3,
+                "puzzle_self_validation_success": 3,
+                "final_judging_attempts": 3,
+                "final_judging_success": 3
+            },
+            "3": {
+                "rule_generation_attempts": 3,
+                "rule_generation_success": 3,
+                "code_generation_attempts": 3,
+                "code_generation_success": 3,
+                "code_execution_attempts": 3,
+                "code_execution_success": 3,
+                "puzzle_self_validation_attempts": 3,
+                "puzzle_self_validation_success": 3,
+                "final_judging_attempts": 3,
+                "final_judging_success": 3
+            },
+            "3D-Hard": {
+                "rule_generation_attempts": 176,
+                "rule_generation_success": 21,
+                "code_generation_attempts": 41,
+                "code_generation_success": 41,
+                "code_execution_attempts": 41,
+                "code_execution_success": 27,
+                "puzzle_self_validation_attempts": 27,
+                "puzzle_self_validation_success": 27,
+                "final_judging_attempts": 27,
+                "final_judging_success": 13
+            }
+        }
+    },
+    "Author_Gemini_Pro": {
+        "SymbolicRule": {
+            "1": {
+                "rule_generation_attempts": 8,
+                "rule_generation_success": 6,
+                "code_generation_attempts": 16,
+                "code_generation_success": 16,
+                "code_execution_attempts": 16,
+                "code_execution_success": 4,
+                "puzzle_self_validation_attempts": 4,
+                "puzzle_self_validation_success": 4,
+                "final_judging_attempts": 4,
+                "final_judging_success": 3
+            },
+            "2": {
+                "rule_generation_attempts": 6,
+                "rule_generation_success": 5,
+                "code_generation_attempts": 9,
+                "code_generation_success": 9,
+                "code_execution_attempts": 9,
+                "code_execution_success": 4,
+                "puzzle_self_validation_attempts": 4,
+                "puzzle_self_validation_success": 4,
+                "final_judging_attempts": 4,
+                "final_judging_success": 3
+            },
+            "3": {
+                "rule_generation_attempts": 8,
+                "rule_generation_success": 5,
+                "code_generation_attempts": 10,
+                "code_generation_success": 10,
+                "code_execution_attempts": 10,
+                "code_execution_success": 3,
+                "puzzle_self_validation_attempts": 3,
+                "puzzle_self_validation_success": 3,
+                "final_judging_attempts": 3,
+                "final_judging_success": 3
+            },
+            "3D-Hard": {
+                "rule_generation_attempts": 62,
+                "rule_generation_success": 19,
+                "code_generation_attempts": 35,
+                "code_generation_success": 35,
+                "code_execution_attempts": 35,
+                "code_execution_success": 17,
+                "puzzle_self_validation_attempts": 17,
+                "puzzle_self_validation_success": 17,
+                "final_judging_attempts": 17,
+                "final_judging_success": 13
+            }
+        },
+        "SemanticRule": {
+            "1": {
+                "rule_generation_attempts": 13,
+                "rule_generation_success": 7,
+                "code_generation_attempts": 17,
+                "code_generation_success": 17,
+                "code_execution_attempts": 17,
+                "code_execution_success": 3,
+                "puzzle_self_validation_attempts": 3,
+                "puzzle_self_validation_success": 3,
+                "final_judging_attempts": 3,
+                "final_judging_success": 3
+            },
+            "2": {
+                "rule_generation_attempts": 8,
+                "rule_generation_success": 5,
+                "code_generation_attempts": 14,
+                "code_generation_success": 14,
+                "code_execution_attempts": 14,
+                "code_execution_success": 3,
+                "puzzle_self_validation_attempts": 3,
+                "puzzle_self_validation_success": 3,
+                "final_judging_attempts": 3,
+                "final_judging_success": 3
+            },
+            "3": {
+                "rule_generation_attempts": 5,
+                "rule_generation_success": 4,
+                "code_generation_attempts": 6,
+                "code_generation_success": 6,
+                "code_execution_attempts": 6,
+                "code_execution_success": 3,
+                "puzzle_self_validation_attempts": 3,
+                "puzzle_self_validation_success": 3,
+                "final_judging_attempts": 3,
+                "final_judging_success": 3
+            },
+            "3D-Hard": {
+                "rule_generation_attempts": 124,
+                "rule_generation_success": 37,
+                "code_generation_attempts": 94,
+                "code_generation_success": 93,
+                "code_execution_attempts": 93,
+                "code_execution_success": 19,
+                "puzzle_self_validation_attempts": 19,
+                "puzzle_self_validation_success": 18,
+                "final_judging_attempts": 18,
+                "final_judging_success": 13
+            }
+        }
+    },
+    "Author_Gemini_Flash": {
+        "SymbolicRule": {
+            "1": {
+                "rule_generation_attempts": 5,
+                "rule_generation_success": 4,
+                "code_generation_attempts": 8,
+                "code_generation_success": 8,
+                "code_execution_attempts": 8,
+                "code_execution_success": 3,
+                "puzzle_self_validation_attempts": 3,
+                "puzzle_self_validation_success": 3,
+                "final_judging_attempts": 3,
+                "final_judging_success": 3
+            },
+            "2": {
+                "rule_generation_attempts": 4,
+                "rule_generation_success": 4,
+                "code_generation_attempts": 6,
+                "code_generation_success": 6,
+                "code_execution_attempts": 6,
+                "code_execution_success": 3,
+                "puzzle_self_validation_attempts": 3,
+                "puzzle_self_validation_success": 3,
+                "final_judging_attempts": 3,
+                "final_judging_success": 3
+            },
+            "3": {
+                "rule_generation_attempts": 3,
+                "rule_generation_success": 3,
+                "code_generation_attempts": 3,
+                "code_generation_success": 3,
+                "code_execution_attempts": 3,
+                "code_execution_success": 3,
+                "puzzle_self_validation_attempts": 3,
+                "puzzle_self_validation_success": 3,
+                "final_judging_attempts": 3,
+                "final_judging_success": 3
+            },
+            "3D-Hard": {
+                "rule_generation_attempts": 147,
+                "rule_generation_success": 37,
+                "code_generation_attempts": 92,
+                "code_generation_success": 45,
+                "code_execution_attempts": 45,
+                "code_execution_success": 16,
+                "puzzle_self_validation_attempts": 16,
+                "puzzle_self_validation_success": 13,
+                "final_judging_attempts": 13,
+                "final_judging_success": 13
+            }
+        },
+        "SemanticRule": {
+            "1": {
+                "rule_generation_attempts": 3,
+                "rule_generation_success": 3,
+                "code_generation_attempts": 3,
+                "code_generation_success": 3,
+                "code_execution_attempts": 3,
+                "code_execution_success": 3,
+                "puzzle_self_validation_attempts": 3,
+                "puzzle_self_validation_success": 3,
+                "final_judging_attempts": 3,
+                "final_judging_success": 3
+            },
+            "2": {
+                "rule_generation_attempts": 3,
+                "rule_generation_success": 3,
+                "code_generation_attempts": 6,
+                "code_generation_success": 6,
+                "code_execution_attempts": 6,
+                "code_execution_success": 4,
+                "puzzle_self_validation_attempts": 4,
+                "puzzle_self_validation_success": 4,
+                "final_judging_attempts": 4,
+                "final_judging_success": 3
+            },
+            "3": {
+                "rule_generation_attempts": 3,
+                "rule_generation_success": 3,
+                "code_generation_attempts": 3,
+                "code_generation_success": 3,
+                "code_execution_attempts": 3,
+                "code_execution_success": 3,
+                "puzzle_self_validation_attempts": 3,
+                "puzzle_self_validation_success": 3,
+                "final_judging_attempts": 3,
+                "final_judging_success": 3
+            },
+            "3D-Hard": {
+                "rule_generation_attempts": 79,
+                "rule_generation_success": 30,
+                "code_generation_attempts": 71,
+                "code_generation_success": 41,
+                "code_execution_attempts": 41,
+                "code_execution_success": 16,
+                "puzzle_self_validation_attempts": 16,
+                "puzzle_self_validation_success": 14,
+                "final_judging_attempts": 14,
+                "final_judging_success": 13
+            }
+        }
+    }
+}
