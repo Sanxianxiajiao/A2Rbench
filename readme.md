@@ -6,6 +6,19 @@ This repository contains the official implementation of the pipeline described i
 
 A²RBench is an automated framework that leverages LLMs to generate, verify, expand, and evaluate abstract reasoning tasks. It ensures logical soundness through **Cycle Consistency Check ($g(f(x)) = x$)** and code-based verification.
 
+---
+
+## 🌟 Task Visualizations
+
+A²RBench generates tasks across 1D, 2D, and 3D dimensions. Below are examples of the symbolic transformation rules:
+
+| **1D: Sequence Interleaving** | **2D: Block-wise Diagonal Swap** | **3D: Coordinate Mapping** |
+| :---: | :---: | :---: |
+| ![1D Task](1d.png) | ![2D Task](2d.png) | ![3D Task](3d.png) |
+| *Rule: Interleaving two halves.* | *Rule: Local 2x2 diagonal swaps.* | *Rule: Multi-axis cyclic shifts.* |
+
+---
+
 ## 📂 Repository Structure
 
 ```text
@@ -20,32 +33,14 @@ A²RBench is an automated framework that leverages LLMs to generate, verify, exp
 └── analysis_expand.py      # Analysis: Augmentation Paradox & Entropy Analysis
 ```
 
+---
+
 ## 🛠️ Installation
 
 1. **Clone the repository:**
 2. **Install dependencies:**
-   
-   *(Note: Core dependencies include `openai`, `pandas`, `numpy`, `scipy`, `rapidfuzz`, `matplotlib`, `seaborn`, `tqdm`)*
 
-## ⚙️ Configuration
-
-Before running the pipeline, you must configure your LLM endpoints in `llm_client.py`.
-
-Open `llm_client.py` and update the `API_CONFIG` dictionary with your actual provider details.
-
-> **Note:** The code supports multiple providers. Ensure your API keys are set up correctly.
-
-```python
-# llm_client.py
-API_CONFIG = {
-    "all": {
-        "base_url": "YOUR_BASE_URL_HERE", 
-        "keys": [
-            "YOUR_API_KEY_HERE"
-        ]
-    },
-}
-```
+---
 
 ## 🚀 Usage Pipeline
 
@@ -73,7 +68,7 @@ python expand_questions.py
 
 ### Stage 3: Solver Evaluation
 
-Evaluates various "Solver" LLMs on the generated tasks. This script also handles **Symbolic Dependency Testing** by creating symbol-remapped versions (P1) of the tasks.
+Evaluates various "Solver" LLMs on the generated tasks. This script handles **Symbolic Dependency Testing** by creating symbol-remapped versions (P1) of the tasks.
 
 ```bash
 python answer.py
@@ -83,50 +78,36 @@ python answer.py
 
 ### Stage 4: Analysis & Metrics
 
-We provide multiple scripts to analyze the results from different perspectives:
+1. **Global Leaderboard:** Generate accuracy tables and symbolic dependency gaps.
+   ```bash
+   python analysis.py
+   ```
+2. **Code Complexity:** Analyze AST of generated rules (loop depth, conditional complexity).
+   ```bash
+   python analyze_complexity.py
+   ```
+3. **Cognitive Failure Diagnosis:** Diagnose *why* a model failed (e.g., Abstraction vs. Reasoning).
+   ```bash
+   python classify_failures.py
+   ```
 
-1. **Global Leaderboard & Symbolic Dependency:**
-    Generates the main accuracy tables and symbolic dependency gaps.
-    
-    ```bash
-    python analysis.py
-    ```
-2. **Code Complexity Analysis:**
-    Analyzes the AST (Abstract Syntax Tree) of generated rules to measure loop depth, conditional complexity, etc.
-    
-    ```bash
-    python analyze_complexity.py
-    ```
-3. **Cognitive Failure Classification:**
-    Uses an Analyst LLM to diagnose *why* a model failed (e.g., Abstraction Failure vs. Reasoning Failure).
-    
-    ```bash
-    python classify_failures.py
-    ```
-4. **Augmentation & Entropy Analysis:**
-    Investigates the relationship between input complexity (compression ratio) and model performance.
-    
-    ```bash
-    python analysis_expand.py
-    ```
+---
 
 ## 📊 Data Format
 
-### Task Format (JSON)
-
-Each generated task includes the executable Python code, the natural language rule description, and the puzzle data.
+Each generated task includes executable Python code, a natural language rule description, and the puzzle data.
 
 ```json
 {
-  "question_id": "SYM_O4_D1_001_V0",
+  "question_id": "SYM_O4_D3_001_V0",
   "task_type": "SymbolicRule",
-  "dimensionality": 1,
-  "rule_description": "Reverse string...",
-  "python_code": "def transform(x): ...",
+  "dimensionality": 3,
+  "rule_description": "Forward transformation (Encoder): ...",
+  "python_code": "def transform_grid(grid): ...",
   "puzzle_data": {
-    "examples": [{"input": "ABC", "output": "CBA"}],
-    "question_plaintext": "XYZ",
-    "answer_ciphertext": "ZYX"
+    "examples": [{"input": [...], "output": [...]}],
+    "question_plaintext": [...],
+    "answer_ciphertext": [...]
   }
 }
 ```
@@ -134,5 +115,3 @@ Each generated task includes the executable Python code, the natural language ru
 ## ⚖️ License
 
 This project is licensed under the MIT License.
-
-
