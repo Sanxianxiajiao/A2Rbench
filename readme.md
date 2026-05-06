@@ -1,6 +1,5 @@
 # A²RBench: Automated Paradigm for Formally Verifiable Abstract Reasoning
 
-**Anonymous Repository for Review**
 
 This repository contains the official implementation of the pipeline described in the paper: **"A²RBench: An Automatic Paradigm for Formally Verifiable Abstract Reasoning Benchmark Generation"**.
 
